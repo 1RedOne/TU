@@ -1,2 +1,4 @@
 Get-TUAlertFilerts
-If $ServerName -like *ATL* { #Don'tAssign }
+If $ServerName -like *ATL* { 
+	Assign to EAS Windows Online group 2 
+ }
